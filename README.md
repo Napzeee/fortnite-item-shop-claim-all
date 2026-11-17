@@ -1,6 +1,19 @@
-# Pirate Token Claim All
+<p align="center">
+  <img src="src/logo320.webp" width="150" alt="Pirate Token Claim All logo">
+</p>
 
-**Claim every free item in the Fortnite Item Shop in one click with the Pirate Shop Access token.**
+<h1 align="center">Pirate Token Claim All</h1>
+
+<p align="center">
+  <b>Claim every free item in the Fortnite Item Shop in one click with the Pirate Shop Access token.</b>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Napzeee/fortnite-item-shop-claim-all/releases/latest/download/pirate-token-claim-all.zip">Download</a> ·
+  <a href="#install">Install</a> ·
+  <a href="#usage">Usage</a> ·
+  <a href="#faq">FAQ</a>
+</p>
 
 The Pirate Shop Access token (also called the Pirate Token or Item Shop Token) makes everything sold for V-Bucks in the Fortnite Item Shop free for 14 days, but every item still has to be claimed one by one. This Chrome and Edge extension claims all of them for you in one click. A full shop usually takes 20 to 30 seconds.
 
