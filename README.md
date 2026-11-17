@@ -5,13 +5,14 @@
 <h1 align="center">Pirate Token Claim All</h1>
 
 <p align="center">
-  <b>A Chrome and Edge extension for Fortnite</b><br>
+  <b>A free, open-source Chrome and Edge extension for Fortnite</b><br>
   Claim every free item in the Fortnite Item Shop in one click with the Pirate Shop Access token.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?style=for-the-badge" alt="Chrome extension">
   <img src="https://img.shields.io/badge/Edge-Extension-0078D7?style=for-the-badge" alt="Edge extension">
+  <img src="https://img.shields.io/badge/License-MIT-2EA44F?style=for-the-badge" alt="MIT license">
 </p>
 
 <p align="center">
@@ -67,6 +68,9 @@ Nothing is claimed. The extension shows a message explaining that the account ha
 
 ## Source code
 The extension's source code is in [`src`](src). You can also load that folder directly with **Load unpacked**.
+
+## License
+The code is open source under the [MIT License](LICENSE). The Pirate token artwork belongs to Epic Games and isn't covered by this license.
 
 ---
 Not affiliated with or endorsed by Epic Games. Fortnite is a trademark of Epic Games, Inc.
