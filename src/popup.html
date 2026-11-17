@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pirate Token Claim All</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="card">
+    <button id="theme" class="switch" role="switch" aria-checked="false" aria-label="Dark mode" title="Light / dark">
+      <span class="knob">
+        <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><g stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></g></svg>
+        <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.6A8.2 8.2 0 0 1 9.4 4a8.2 8.2 0 1 0 10.6 10.6z" fill="currentColor"/></svg>
+      </span>
+    </button>
+
+    <div class="logo"><img src="logo320.webp" alt="" width="104" height="104"></div>
+    <h1>Pirate Shop</h1>
+    <p id="status" class="status" data-state="idle" hidden><span class="dot"></span><span class="txt"></span></p>
+
+    <button id="claim" class="btn primary" type="button">
+      <span class="label">Claim everything</span>
+      <span class="badge" hidden></span>
+    </button>
+    <button id="open" class="btn ghost" type="button">
+      <span class="label">Open Item Shop</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+
+    <p class="foot">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5.5c0 4.3-3 8-7 9.5-4-1.5-7-5.2-7-9.5V6z" fill="currentColor" opacity=".22"/><path d="M8.5 12.2l2.4 2.4 4.6-4.8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Only ever claims free items
+    </p>
+  </main>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Pirate Token Claim All",
+  "version": "1.0.0",
+  "description": "Claim every free item in the Fortnite Item Shop in one click while your Pirate Shop Access token is active. Never spends V-Bucks.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "Pirate Token Claim All",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+    }
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://www.fortnite.com/*"],
+  "web_accessible_resources": [
+    { "resources": ["logo320.webp"], "matches": ["https://www.fortnite.com/*"] }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.fortnite.com/*"],
+      "css": ["overlay.css"],
+      "js": ["bridge.js"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["https://www.fortnite.com/*"],
+      "js": ["content.js"],
+      "world": "MAIN",
+      "run_at": "document_idle"
+    }
+  ]
+}
